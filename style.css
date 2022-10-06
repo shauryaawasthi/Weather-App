@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.container{
+  background-image: url("./images/image1.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: change 25s infinite ease-in-out;
+  position: fixed;
+  
+  
+  
+
+
+
+
+}
+
+@keyframes change{
+    0%{
+        background-image: url("./images/image1.jpg");
+    }
+
+    25%{
+        background-image: url("./images/image2.jpg");
+    }
+
+    50%{
+        background-image: url("./images/image3.jpg");
+    }
+
+    75%{
+        background-image: url("./images/image1.jpg");
+    }
+
+    100%{
+        background-image: url("./images/image2.jpg");
+    }
+
+
+
+
+}
+
+
+
+.infoContainer{
+
+    width: 350px;
+    height: 350px;
+    
+    position: relative;
+    margin-left: 550px;
+    margin-top: 180px;
+    
+   
+   
+    border-radius:5%;
+    
+
+}
+
+
+.opacity{
+
+    background-color: rgba(0, 0, 0,.7);
+}
+
+
+.text{
+
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    padding: 10px;
+    margin-top: 20px;
+
+    
+
+
+
+}
+
+.text > * {
+    margin-top:15px;
+}
+
+.button{
+
+    border-radius:5px;
+    padding: 5px;
+}
+
+.button:hover{
+
+    background-color: rgba(0, 0, 0,.7);
+    color: azure;
+
+
+}
+
+.search{
+
+    border-radius:8px;
+    padding: 5px;
+}
